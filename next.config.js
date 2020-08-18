@@ -19,6 +19,12 @@ module.exports = {
   },
 }
 
-module.exports = {
-  poweredByHeader: false,
-}
+module.exports = 
+  {
+     poweredByHeader: false,
+  }
+
+module.exports = 
+  {
+     mesaj: '"/Learn from the mistakes of others. You can’t live long enough to make them all yourself./"/ -/Eleanor Roosevelt',
+  }
