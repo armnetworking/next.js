@@ -22,3 +22,7 @@ module.exports = {
 module.exports = {
   poweredByHeader: false,
 }
+
+module.exports = {
+  Container: false,
+}
