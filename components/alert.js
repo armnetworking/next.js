@@ -24,7 +24,7 @@ export default function Alert({ preview }) {
               to exit preview mode.
             </>
           ) : (
-            <>
+            /*<>
               The source code for this blog is{' '}
               <a
                 href={`https://github.com/zeit/next.js/tree/canary/examples/${EXAMPLE_PATH}`}
@@ -33,6 +33,9 @@ export default function Alert({ preview }) {
                 available on GitHub
               </a>
               .
+            </>*/
+            <>
+            Welcome to thsi site.{' '}
             </>
           )}
         </div>
