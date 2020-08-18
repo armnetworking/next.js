@@ -1,6 +1,8 @@
 import Container from './container'
 import cn from 'classnames'
 import { EXAMPLE_PATH } from '@/lib/constants'
+//-mesaj-header
+import mesaj from 'next.config.js';
 
 export default function Alert({ preview }) {
   return (
@@ -25,14 +27,7 @@ export default function Alert({ preview }) {
             </>
           ) : (
             <>
-              The source code for this blog is{' '}
-              <a
-                href={`https://github.com/zeit/next.js/tree/canary/examples/${EXAMPLE_PATH}`}
-                className="underline hover:text-success duration-200 transition-colors"
-              >
-                available on GitHub
-              </a>
-              .
+            { mesaj }
             </>
           )}
         </div>
