@@ -23,7 +23,7 @@ export default function Alert({ preview }) {
               </a>{' '}
               to exit preview mode.
             </>
-          ) : (
+/*          ) : ( // Raz - no headline
             <>
               The source code for this blog is{' '}
               <a
@@ -33,7 +33,7 @@ export default function Alert({ preview }) {
                 available on GitHub
               </a>
               .
-            </>
+            </> */
           )}
         </div>
       </Container>
